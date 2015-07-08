@@ -1,0 +1,5 @@
+#!/bin/tcsh
+echo "Working"
+rsync -avz ~/OneDrive/droidsrobotics.org/* sseshan@www.ev3lessons.org:~/droidsrobotics.com
+ssh sseshan@ev3lessons.com \~/droidsrobotics.com/fixperf
+echo "Done"

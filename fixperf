@@ -1,0 +1,3 @@
+cd ~/droidsrobotics.com
+find . -type f -print -exec chmod 644 {} ";"; find . -type d -exec chmod 755 {} \; -print
+chmod 755 cleanfiles updateDroids fixperf
