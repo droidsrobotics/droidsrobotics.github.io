@@ -41,6 +41,15 @@ document.write('\
                                         </div>\
                                     </a>\
                                 </li>\
+                                <li class="nav-icon-team">\
+                                    <a href="sponsors.html">\
+                                        Sponsors\
+                                        <div style="position:absolute; left: 50%;">\
+                                            <span class="triangle">&nbsp;</span>\
+                                        </div>\
+                                    </a>\
+                                </li>\
+                                \
                                 <li class="nav-icon-works">\
                                     <a href="contact.html">\
                                         Contact Us\
