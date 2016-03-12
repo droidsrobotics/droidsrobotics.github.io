@@ -1,607 +1,720 @@
 <!DOCTYPE html>
-<!--[if IE 6]>
-<html id="ie6" class="ie"lang="en-US">
-<![endif]-->
-<!--[if IE 7]>
-<html id="ie7"  class="ie"lang="en-US">
-<![endif]-->
-<!--[if IE 8]>
-<html id="ie8"  class="ie"lang="en-US">
-<![endif]-->
-<!--[if IE 9]>
-<html id="ie9"  class="ie"lang="en-US">
-<![endif]-->
-<!--[if gt IE 9]>
-<html class="ie"lang="en-US">
-<![endif]-->
-<!--[if !IE]>
-<html lang="en-US">
-<![endif]-->
+<html lang="en">
 
-<!-- START HEAD -->
 <head>
-    <meta charset="UTF-8" />
 
-    <!-- this line will appear only if the website is visited with an iPad -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <title>Droids Robotics | FLL #51</title>
+    <title>Droids Robotics Home Page</title>
 
-    <!-- RESET STYLESHEET -->
-    <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
-    <!-- BOOTSTRAP STYLESHEET -->
-    <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css" />
-    <!-- MAIN THEME STYLESHEET -->
-    <link rel="stylesheet" type="text/css" media="all" href="style.css" />
-    <link rel='stylesheet' id='custom-css'  href='css/custom.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed:300,400,800%3A300%7CRokkitt%7CShadows+Into+Light%7CMaven+Pro:400,700%7CAbel%7CMontez' type='text/css' media='all' />
-    <link rel='stylesheet' id='responsive-css'  href='css/responsive.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='tipsy-css'  href='css/tipsy.css' type='text/css' media='all' />
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel='stylesheet' id='fonts-css'  href='css/font-awesome.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='full-descriptor-css'  href='portfolios/full-description/css/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='slide-details-css'  href='portfolios/slide-detail/css/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flex-css'  href='sliders/flexslider/css/slider.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flexslider-css'  href='sliders/flexslider/css/flexslider.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flexslider-elegant-css'  href='sliders/flexslider-elegant/css/flexslider.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='shortcode-css'  href='css/shortcodes.css' type='text/css' media='all' />
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
 
-    <link rel='stylesheet' id='colorbox-css'  href='css/colorbox.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='custom-button-mfast-3-css'  href='css/buttons/mfast-3.css' type='text/css' media='all' />
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- [favicon] begin -->
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <!-- [favicon] end -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-    <!-- Touch icons more info: http://mathiasbynens.be/notes/touch-icons -->
-    <!-- For iPad3 with retina display: -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x.png" />
-    <!-- For first- and second-generation iPad: -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x.png" />
-    <!-- For first- and second-generation iPad: -->
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x.png">
-    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x.png" />
-
-    <link rel='stylesheet' id='thickbox-css'  href='js/thickbox/thickbox.css' type='text/css' media='all' />
-
-    <script type='text/javascript' src='js/jquery/jquery.js'></script>
 </head>
-<!-- END HEAD -->
 
-<!-- START BODY -->
-<body class="home page no_js responsive stretched">
+<body id="page-top" class="index">
 
-<!-- START BG SHADOW -->
-<div class="bg-shadow">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Droids Robotics</a>
+            </div>
 
-<!-- START WRAPPER -->
-<div id="wrapper" class="container group">
-<!-- START TOP BAR -->
-        <script src="topbar.js"></script>
-<!-- END TOP BAR -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+		     <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+		     <li>
+                        <a class="page-scroll" href="#about">About</a>
+                     </li>
+		      <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#press">Press</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-<!-- START HEADER -->
-        <script src="header.js"></script>
-<!-- END HEADER -->
+    <!-- Header -->
+    <header>
+        <div class="container" style="">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome To Our Webpage</div>
+                <div class="intro-heading">Not The Droids You Are Looking For</div>
+                <a href="#team" class="page-scroll btn btn-xl">Learn More</a>
+            </div>
+        </div>
+    </header>
 
-<!-- BEGIN FLEXSLIDER SLIDER -->
-<div id="slider-flexslider-classic" class="slider slider-flexslider-classic flexslider container">
-    <ul class="slides" style="width:100%;">
-        <li>
-            <img width="1170" height="378" src="images/slider/droids.jpg" class="attachment-full" alt="Bite2" />
-        </li>
-        <li>
-            <img width="1170" height="380" src="images/slider/1.jpg" class="attachment-full" alt="Dog2" />
-        </li>
-        <li>
-            <img width="1170" height="378" src="images/slider/2.jpg" class="attachment-full" alt="Taipei2" />
-        </li>
-        <li>
-            <img width="1170" height="378" src="images/slider/3.jpg" class="attachment-full" alt="Taipei2" />
-        </li>
-        <li>
-            <img width="1170" height="378" src="images/slider/4.jpg" class="attachment-full" alt="Taipei2" />
-        </li>
-        <li>
-            <img width="1170" height="378" src="images/slider/5.jpg" class="attachment-full" alt="Taipei2" />
-        </li>
-        <li>
-            <img width="1170" height="378" src="images/slider/6.jpg" class="attachment-full" alt="Taipei2" />
-        </li>
-        <li>
-            <img width="1170" height="378" src="images/slider/7.jpg" class="attachment-full" alt="Taipei2" />
-        </li>
-      <!--  <li>
-            <img width="1170" height="378" src="images/slider/8.jpg" class="attachment-full" alt="Taipei2" />
-        </li>
-        <li>
-            <img width="1170" height="378" src="images/slider/9.jpg" class="attachment-full" alt="Taipei2" />
-        </li>-->
-    </ul>
-</div>
+        <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Team</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="team-member">
+                        <img src="img/team/sanjay.jpeg" class="img-responsive img-circle"alt="">
+                        <h4>Sanjay</h4>
+                        <p class="text-muted">Team Member</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="team-member">
+                        <img src="img/team/arvind.jpeg" class="img-responsive img-circle" alt="">
+                        <h4>Arvind</h4>
+                        <p class="text-muted">Team Member</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="team-member">
+                        <img src="img/team/TARDIS.jpg" class="img-responsive img-circle" alt="">
+                        <h4>TARDIS</h4>
+                        <p class="text-muted">Robot</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">We are a middle school robotics team from Pittsburgh, PA, USA. We participate in robotics-related activities all year round. We help and collaborate with FIRST teams as well as LEGO MINDSTORMS enthusiasts locally and globally. Our primary goal is to encourage other kids to learn robotics and programming, and share our love for FIRST LEGO League. We have taught classes in Pennsylvania, Maryland, Virginia and Ohio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-<script type="text/javascript">
-    jQuery(document).ready(function($){
-       $('#slider-flexslider-classic.flexslider').flexslider({
-            animation: 'fade',
-            slideshowSpeed: 3000,
-            animationSpeed: 800,
-            touch: false
-        });
-    });
-</script>
-
-<!-- START PAGE META -->
-<div id="page-meta" class="container">
-    <!-- SLOGAN -->
-
-</div>
-<!-- END PAGE META -->
-
-<!-- START PRIMARY -->
-<div id="primary" class="sidebar-right">
-    <div class="container group">
-        <div class="row">
-            
-            <!-- START CONTENT -->
-            <div id="content-home" class="span9 content group">
-                <div class="page type-page status-publish hentry group">
-                    <div class="section portfolio">
-                        <!-- section blog wrapper -->
-                        
-                        <!-- sticky portfolio -->
-                        <div class="row">
-                            <div class="page type-page status-publish hentry work group portfolio-sticky portfolio-full-description">
-                                <div class="work-thumbnail span4">
-                                    <div class="thumb-wrapper">
-                                        <div class="related_img">
-                                            <div class="picture_overlay"><img width="385" height="192" src="http://www.ev3lessons.com/images/slider-flash/ev3lessons.jpg" class="attachment-section_portfolio_sidebar" alt="004" />
-                                                <div class="overlay">
-                                                    <div>
-                                                        <p>
-                                                            <a href="images/portfolios/0411.jpg" rel="lightbox" class="ch-info-lightbox">
-                                                             <!--   <img src="images/icons/zoom.png" alt="Open Lightbox" />-->
-                                                            </a>
-
-                                                            <a style="font-size: 300%;" href="http://ev3lessons.com/">
-                                                                ev3lessons.com                                                       <img src="images/icons/project.png" alt="" />
-                                                            </a>
-                                                        </p>
-                                                  <!--      <p class="title">Digitpool Medien</p>
-                                                        <p class="subtitle">logo design</p>
-                                                    --></div>
-                                                </div>
-                                                <!-- end overlay -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end thumb wrapper -->
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted">We have been a FIRST team for five years. Read about our team history in FIRST LEGO League below.
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image"style="border:7px solid gold">
+                                <img class="img-circle img-responsive" src="img/about/foodfactor.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2011</h4>
+                                    <h4 class="subheading">Food Factor</h4>
                                 </div>
-                                <!-- end work-thumbnail -->
-                                <div class="span5">
-                                    <div class="work-description">
-                                        <h2>
-                                            <a
-                                                                href="portfolio-slide-detail.html">Coopertition</a>
-                                        </h2>
-                                        <p>
-                                           Our Coopertition website is
-                                                                EV3Lessons.com. Here,
-                                                                FLL teams
-                                                                and
-                                                                MINDSTORMS
-                                                                users
-                                                                can
-                                                                share
-                                                                programming
-                                                                lessons
-                                                                and
-                                                                other resources.
-                                                               There
-                                                                are
-                                                                50
-                                                                beginner,
-                                                                intermediate,
-                                                                and
-                                                                advanced
-                                                                lessons
-                                                                and
-                                                                another
-                                                                30
-                                                                Quick
-                                                                Guides. Also
-                                                                popular
-                                                                are our
-                                                                Trash Trek
-                                                                scorer,
-                                                                Interactive
-                                                                Sketch
-                                                                Planner,
-                                                                Wheel
-                                                                Converter
-                                                                Apps, 35
-                                                                Core
-                                                                Values
-                                                                activities
-                                                                and more.
-                                                            This
-                                                                website
-                                                                has
-                                                                over
-                                                                24 international
-                                                                collaborators
-                                                                and is
-                                                                currently
-                                                                used
-                                                                by
-                                                                over
-                                                                40,000+
-                                                                users
-                                                                from
-                                                                124
-                                                                countries. It
-                                                                is the
-                                                              go-to
-                                                                site
-                                                                for
-                                                                teams,
-                                                                teachers
-                                                                and
-                                                                robotics
-                                                                clubs learning
-                                                                to
-                                                                program
-                                                                the EV3.
-                                        </p>
-                                        <a
-                                                                href="http://ev3lessons.com/"
-                                                                class="read-more">||
-                                                                View
-                                                                our
-                                                                lessons
-                                                                on
-                                                                EV3Lessons.com</a>
-                                    </div>
-                                    <!-- end work-description -->
+                                <div class="timeline-body">
+                                    <p class="text-muted">State: 3rd Place Champion's &<br>1st Place Robot Game</p>
                                 </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image"style="border:7px solid gold">
+                                <img class="img-circle img-responsive" style="background-color:yellow" src="img/about/seniorsolutions.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2012</h4>
+                                    <h4 class="subheading">Senior Solutions</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">State: 2nd Place Champion's &<br> 2nd Place Robot Game</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image"style="border:7px solid gold">
+                                <img class="img-circle img-responsive" src="img/about/naturesfury.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2013</h4>
+                                    <h4 class="subheading">Nature's Fury</h4>
+                                </div>
+                                <div class="timeline-body">
+                                  <p class="text-muted">State: 1st Place Champion's &<br> 1st Place Robot Game.<br>FLL International Open (Toronto:) 1st Place Innovative Solution.
+				</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image"style="border:7px solid gold">
+                                <img class="img-circle img-responsive" src="img/about/worldclass.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2014</h4>
+                                    <h4 class="subheading">World Class</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">State: 2nd Place Champion's &<br> 1st Place Robot Game.<br>FLL Razorback Open (Arkansas:) 1st Place Champion's &<br> 2nd Place Robot Game.</p>
+                                </div>
+                            </div>
+                        </li>
+
+			 <li>
+                            <div class="timeline-image" style="border:7px solid gold">
+                                <img class="img-circle img-responsive" src="img/about/trashtrek.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2015</h4>
+                                    <h4 class="subheading">Trash Trek</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">State: 1st Place Champion's &<br>1st Place Robot Game.<br> FLL World Festival (St.Louis): TBD.</p>
+                                </div>
+                            </div>
+                         </li>
+
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Our
+                                    <br>FLL
+                                    <br>Story</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Portfolio Grid Section -->
+    <section id="projects" class="bg-light-gray">
+}
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Projects</h2>
+                    <h3 class="section-subheading text-muted">Here are some of our major robotics projects.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+
                             </div>
                         </div>
-                        <!-- span wrapper -->
+                        <img src="img/portfolio/EV3Lessons.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>EV3 Lessons</h4>
+                        <p class="text-muted">Coopertition Site</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
 
-                        <div class="portfolio-projects row">
-                            <div class="work_first work span3">
-                                <div class="related_img">
-                                    <div class="picture_overlay">
-                                  
-                                        <div class="overlay">
-                                            <div>
-                                                <p>
-                                         
-                                                        
-                                                    </a>
-                                                  
-                                                </p>
-                                               
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="work-description">
-                                    <h4>
-                                    
-				      </a>
-                                    </h4>
-                                   
-                                </div>
-                            </div>
-
-                            <div class="work span3">
-                                <div class="related_img">
-                                    <div class="picture_overlay">
-                                     
-
-                                    </div>
-                                </div>
-                                <div class="work-description">
-                                    <h4>
-                                       
-                                    </h4>
-                                   
-                                </div>
-                            </div>
-
-                            <div class="work span3">
-                                <div class="related_img">
-                                    <div class="picture_overlay">
-                                       
-                                        <div class="overlay">
-                                            <div>
-                                                <p>
-                                                   
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="work-description">
-                                    <h4>
-                                       
-                                </div>
                             </div>
                         </div>
+                        <img src="img/portfolio/PIX3LPLOTT3R.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>PIX3L PLOTT3R</h4>
+                        <p class="text-muted">Drawing Robot</p>
                     </div>
-                    <!-- end section blog wrapper -->
-                    <div class="clear"></div>
                 </div>
-                <!-- START COMMENTS -->
-                <div id="comments"></div>
-                <!-- END COMMENTS -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/M3LODYMAK3R.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>M3LODY MAK3R</h4>
+                        <p class="text-muted">Music Robot</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/DAL3K.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>DAL3K</h4>
+                        <p class="text-muted">Fictional Character Robot</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/BATT3RYSORT3R.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>BATT3RY SORT3R</h4>
+                        <p class="text-muted">Battery Recycling Robot</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/db22.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>DroidBot Series</h4>
+                        <p class="text-muted">Educational Robots</p>
+                    </div>
+                </div>
             </div>
-            <!-- END CONTENT -->
+        </div>
+    </section>
 
-            <!-- START SIDEBAR -->
-            <div id="sidebar-home-3" class="span3 sidebar group">
-                <div id="testimonial-widget-2" class="widget-first widget testimonial-widget">
-                    <h3>Testimonials</h3>
-                    <div class="testimonial-text">
-                        <ul class="slides">
-
-
-<li>
-                                <div>
-                                    <blockquote>
-                                        <p>
-                                           "Your team exudes the core values of FLL and your enthusiasm is infectious!"
-                                        </p>
-                            
-                                    </blockquote>
-                                 
-                                    <div class="name-testimonial">
-                                      
-                                        <br />
-                                        <a class='url-testimonial' href=""></a>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                            </li>
-			  
-                            <li>
-                                <div>
-                                    <blockquote>
-                                        <p>
-                                           "Your team is very inspirational and is doing a great job! Thank you for all the resources you share. Excellent Coopertition!"
-                                        </p>
-                            
-                                    </blockquote>
-                                 
-                                    <div class="name-testimonial">
-                                      
-                                        <br />
-                                        <a class='url-testimonial' href=""></a>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                            </li>
+    <!-- Services Section -->
+    <section id="press">
+	<div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Press</h2>
+                    <h3 class="section-subheading text-muted">We have been honored to appear in several news stories and publications including KDKA, WPXI, Pittsburgh Post-Gazette, Tribune Review, Carnegie Mellon University Robotics Academy, Northern Connection, INCommunity Magazine, The NXTStep, and LEGO.</h3>
+                </div>
+            <div class="col-lg-12">
 
 
+                <ul id="myTab" class="nav nav-tabs nav-justified">
+                  <li class="active"><a href="#2016" data-toggle="tab" aria-expanded="true"><i class="fa fa-globe"></i> 2016</a>
+                  </li>
+                  <li class=""><a href="#2015" data-toggle="tab" aria-expanded="false"><i class="fa fa-globe"></i> 2015</a>
+                  </li>
+                    <li class=""><a href="#2014" data-toggle="tab" aria-expanded="false"><i class="fa fa-globe"></i> 2014</a>
+                    </li>
+                    <li class=""><a href="#2013" data-toggle="tab" aria-expanded="false"><i class="fa fa-globe"></i> 2013</a>
+                    </li>
+                </ul>
 
-			    <li>
-                                <div>
-                                    <blockquote>
-                                        <p>
-                                           "Your work is incredibly useful and valuable, and will encourage tons of kids that they CAN do First Lego League.   Great, Great, Great!!"
-                                        </p>
-                            
-                                    </blockquote>
-                                 
-                                    <div class="name-testimonial">
-                                      
-                                        <br />
-                                        <a class='url-testimonial' href=""></a>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                            </li>
-			    <li>
+                <div id="myTabContent" class="tab-content">
 
-
-			                                <li>
-                                <div>
-                                    <blockquote>
-                                        <p>
-                                           "You have done so much work. You are truly the embodiment of FIRST's mission."
-                                        </p>
-                            
-                                    </blockquote>
-                                 
-                                    <div class="name-testimonial">
-                                      
-                                        <br />
-                                        <a class='url-testimonial' href=""></a>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                            </li>
-
-
-      <li>
-                                <div>
-                                    <blockquote>
-                                        <p>
-                                           "I wanted to take this occasion to thank your team for inspiring us and showing amazing Gracious Professionalism!"
-"
-                                        </p>
-                            
-                                    </blockquote>
-                                 
-                                    <div class="name-testimonial">
-                                      
-                                        <br />
-                                        <a class='url-testimonial' href=""></a>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                            </li>
-
-			       <li>
-                                <div>
-                                    <blockquote>
-                                        <p>
-                                           "We are a rookie team and you are one of our best inspiration stories. We wish you the best."
-                                        </p>
-                            
-                                    </blockquote>
-                                 
-                                    <div class="name-testimonial">
-                                      
-                                        <br />
-                                        <a class='url-testimonial' href=""></a>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                            </li>
-
-			    
-
-      <li>
-                                <div>
-                                    <blockquote>
-                                        <p>
-                                            "You may not be the Droids that they are looking for, but I am sure that you are the type of Droids that the world needs. Thank you for being such dedicated and amazing people!"
-                                        </p>
-                                 
-                                    </blockquote>
-                                   
-                                    <div class="name-testimonial">
-                                       
-                                        <br />
-                                        <a class='url-testimonial' href=""></a>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                            </li>
-
-
-			    
-                            <li>
-                                <div>
-                                    <blockquote>
-                                        <p>
-                                            "I have been coaching teams for FLL for about 8 years. This is the first time a team has reached out to me to share ideas."
-                                        </p>
-                                 
-                                    </blockquote>
-                                   
-                                    <div class="name-testimonial">
-                                       
-                                        <br />
-                                        <a class='url-testimonial' href=""></a>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div>
-                                    <blockquote>
-                                        <p>
-                                            "You did a great job with EV3 Lessons and are an example for other FLL Teams."
-                                        </p>
-                                  
-                                    </blockquote>
-                                  
-                                    <div class="name-testimonial">
-                                       
-                                        <br />
-                                        <a class='url-testimonial' href=""></a>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div>
-                                    <blockquote>
-                                        <p>
-                                             "Great friendship, coopertition and grace, plus some awesome robot moves for good measure."
-                                        </p>
-                                    
-                                    </blockquote>
-                                 
-                                    <div class="name-testimonial">
-                                       
-                                        <br />
-                                        <a class='url-testimonial' href=""></a>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                            </li>
-                        </ul>
+		                <div class="tab-pane fade active in" id="2016">
+                      <h4>Articles and News Stories from 2016</h4>
+                      <a href="http://northernconnectionmag.com/lego#more-368" class="list-group-item list-group-item-success">Western PA FLL Grand Championship</a>
+                      <a href="http://www.indiawest.com/news/global_indian/indian-american-robotics-team-qualifies-for-lego-league-world-festival/article_1d26d8f0-c938-11e5-ae3b-07ffda01b12b.html" class="list-group-item list-group-item-info">Indian American Robotics Team Qualifies For Lego League World Festival</a>
+                      <a href="http://triblive.com/news/neighborhoods/foxchapel/9800792-74/lego-league-arvind" class="list-group-item list-group-item-warning">Brothers Build on Robotics Success</a>
+                      <a href="http://pittsburgh.cbslocal.com/2016/01/11/teams-compete-in-western-pa-lego-league-championship/" class="list-group-item list-group-item-danger">Teams Compete in Western PA Lego League Championship</a>
                     </div>
 
-                    <script type="text/javascript">
-                    jQuery(document).ready(function($){
-                        $('.testimonial-widget ul').css( 'max-height', 'none' );
+                    <div class="tab-pane fade" id="2015">
+                        <h4>Articles and News Stories from 2015</h4>
+                        <a href="http://www.thenxtstep.com/2015/12/hour-of-code-hour-of-ev3.html" class="list-group-item list-group-item-success">Hour of EV3</a>
+                        <a href="https://www.youtube.com/watch?v=n9iDW2cLf_E" class="list-group-item list-group-item-info">EV3 Programming App</a>
+                        <a href="https://www.youtube.com/watch?v=D3uCZmEKCSI" class="list-group-item list-group-item-warning">LEGO MINDSTORMS in Action at MakerFaire</a>
+                        <a href="https://innovationatplay.lego.com/en-us?domainredir=lego.com#/mindstorms.html" class="list-group-item list-group-item-danger">LEGO Innovation at Play</a>
+                        <a href="img/portfolio/FullAssembly.pdf" class="list-group-item list-group-item-success">Full Assembly Required</a>
+                        <a href="http://www.thenxtstep.com/2015/10/lego-mindstorms-at-world-maker-faire_8.html" class="list-group-item list-group-item-info">LEGO MINDSTORMS at World Maker Faire</a>
+                        <a href="http://blog.virtualroboticstoolkit.com/0" class="list-group-item list-group-item-warning">Simulator Debuts at FLL Workshop</a>
+                        <a href="http://www.droidsrobotics.org/images/logo/FCLiving.jpg" class="list-group-item list-group-item-danger">Not the Droids You Are Looking For</a>
+                        <a href="http://triblive.com/neighborhoods/yourfoxchapel/yourfoxchapelmore/8591921-74/robot-class-stepke#axzz3eNDl4c10" class="list-group-item list-group-item-success">Fox Chapel Summer Library Camp</a>
+                        <a href="http://www.kidsburgh.org/features/4-amazing-success-stories-of-young-pittsburgh-entrepreneurs" class="list-group-item list-group-item-info">Four Amazing Success Stories of Young Pittsburgh Entrepreneurs</a>
+                        <a href="http://www.indiawest.com/news/global_indian/brothers-win-lego-league-razorback-international/article_41c8c29c-145a-11e5-896c-036ed933f9b2.html?mode=jqm" class="list-group-item list-group-item-warning">Brothers Win Lego League Razorback Invitational</a>
+                        <a href="http://www.americanbazaaronline.com/2015/06/17/indian-american-siblings-win-first-lego-league-razorback-invitational-at-the-university-of-arkansas/" class="list-group-item list-group-item-danger">American Indian Siblings Win FLL Razorback Invitational</a>
+                        <a href="https://dcdesi.com/indian-american-siblings-win-first-lego-league-razorback-invitational-at-the-university-of-arkansas/" class="list-group-item list-group-item-success">American Indian Siblings Win Razorback Invitational</a>
+                        <a href="http://www.post-gazette.com/news/education/2015/06/05/Fox-Chapel-robotics-team-wins-international-contest/stories/201506050044" class="list-group-item list-group-item-info">Fox Chapel Robotics Team Wins International Lego League Razorback Invitational</a>
+                        <a href="http://education.rec.ri.cmu.edu/uncategorized/droids-fll-razorback/" class="list-group-item list-group-item-warning">Droids Robotics - FLL Razborback Invitational Recap</a>
+                        <a href="http://education.rec.ri.cmu.edu/uncategorized/droids-fll-razorback/" class="list-group-item list-group-item-danger">Off season Learning: Collaborators Without Borders</a>
+                        <a href="http://www.legoengineering.com/programming-resources-for-ev3/" class="list-group-item list-group-item-success">Programming Resources for the EV3</a>
+                        <a href="https://storify.com/firstlegoleague/winding-down-and-wrapping-up" class="list-group-item list-group-item-info">Winding Down and Wrapping Up</a>
+                        <a href="http://education.rec.ri.cmu.edu/blog/student-pov-droids/" class="list-group-item list-group-item-warning">CMU Robotics Academy: Student Point of View</a>
+                        <a href="http://www.thenxtstep.com/2015/03/ev3-lessons.html" class="list-group-item list-group-item-danger">The NXTStep: EV3Lessons</a>
+                        <a href="http://www.ellencavanaugh.com/2015/02/22/reaching-the-world-through-robotics/" class="list-group-item list-group-item-success">Reaching the World Through Robotics</a>
+                        <a href="http://www.post-gazette.com/local/north/2015/01/29/fox-chapel-boys-lead-the-next-generation-of-computer-scientists/201501290073" class="list-group-item list-group-item-info">Fox Chapel Boys Lead the Next Generation of Computer Scientists</a>
 
-                        var animation = $.browser.msie || $.browser.opera ? 'fade' : 'slide';
-                        $('.testimonial-widget').flexslider({
-                            animation: animation,
-                            slideshowSpeed: 8000,
-                            animationSpeed: 300,
-                            selectors: '.slides > li',
-                            directionNav: true,
-                            slideshow: true,
+                    </div>
 
-                            pauseOnAction: false,
-                            controlNav: false,
-                            touch: true
-                        });
-                    });
-                </script>
+                    <div class="tab-pane fade" id="2014">
+                      <h4>Articles and News Stories from 2014</h4>
+                      <a href="http://www.washingtontimes.com/news/2014/jul/2/first-lego-league-tournaments-build-many-skills/?page=all" class="list-group-item list-group-item-success">First Lego League Tournaments Build Many Skills</a>
+                      <a href="http://triblive.com/lifestyles/morelifestyles/6294313-74/lego-seshan-league#axzz3eNDl4c10" class="list-group-item list-group-item-info">First Lego League Tournaments Build Many Skills</a>
+                      <a href="http://www.northhillsmonthly.com/2014/08/29/45782/middle-school-team-brings-home-first-place-firstlego-trophy" class="list-group-item list-group-item-warning">Middle School Team Brings Home First Place Trophy</a>
+                      <a href="http://www.wpxi.com/news/news/local/proud-be-pittsburgh-girls-steel/ng3qG/" class="list-group-item list-group-item-danger">Proud to be From Pittsburgh</a>
+                      <a href="http://southasiankids.com/" class="list-group-item list-group-item-success">Meet the Desi Robotics Champs</a>
+                    </div>
+
+
+                    <div class="tab-pane fade" id="2013">
+                      <h4>Articles and News Stories from 2013</h4>
+                      <a href="http://www.wpxi.com/news/news/local/local-lego-enthusiasts-compete-first-ever-lego-rob/nT3JG/" class="list-group-item list-group-item-success">Lego Enthusiasts Compete in First Lego Robotics Contest</a>
+                       <a href="http://triblive.com/neighborhoods/yournorthhills/yournorthhillsmore/3090551-74/lego-challenge-college#axzz3eNDl4c10" class="list-group-item list-group-item-info">First Lego League Senior Solutions Challenge</a>
+                    </div>
                 </div>
-               
+
             </div>
-            <!-- END SIDEBAR -->
+        </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted" style="margin-bottom:10px">by social media:</h3>
+                            <ul class="list-inline social-buttons" style="margin-bottom:10px">
+                                <li><a href="http://twitter.com/droidsrobotics"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li><a href="http://www.facebook.com/droidsrobotics"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a href="https://www.instagram.com/droidsrobotics/"><i class="fa fa-instagram"></i></a>
+                                </li>
+                              </li>
+                              <li><a href="https://www.youtube.com/droidsrobotics/"><i class="fa fa-youtube"></i></a>
+                              </li>
+                            </li>
+                            <li><a href="https://plus.google.com/u/0/b/100693516412608981402/100693516412608981402/posts/p/pub"><i class="fa fa-google"></i></a>
+                            </li>
+                            </ul>
+
+            </div>
+            <div class="col-lg-12 text-center">
+                <h3 class="section-subheading text-muted" style="margin-bottom:10px">OR use the form below to contact us.</h3>
+            <iframe src="https://docs.google.com/forms/d/10CU1jqyAPQEG0AyTt-pcF6-mwqEIYVzuWO8YnyzjWtc/viewform?embedded=true" width="1200" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>
+        </div>
+    </section>
+
+    <!-- Clients Aside -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="http://www.cogmation.com">
+                        <img src="img/logos/vrt.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="http://www.brainstemlearning.org">
+                        <img src="img/logos/BrainSTEM.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="http://www.droidsrobotics.org">
+                        <img src="img/logos/droidslogo.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="http://www.ev3lessons.com">
+                        <img src="img/logos/ev3lessonslogo.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Droids Robotics 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="http://twitter.com/droidsrobotics"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="http://www.facebook.com/droidsrobotics"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/droidsrobotics/"><i class="fa fa-instagram"></i></a>
+                        </li>
+                      </li>
+                      <li><a href="https://www.youtube.com/droidsrobotics/"><i class="fa fa-youtube"></i></a>
+                      </li>
+                    </li>
+                    <li><a href="https://plus.google.com/u/0/b/100693516412608981402/100693516412608981402/posts/p/pub"><i class="fa fa-google"></i></a>
+                    </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>EV3Lessons.com</h2>
+                            <p class="item-intro text-muted">Coopertion Site for FLL Teams</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/EV3Lessons.png" alt="">
+                            <p>EV3Lessons.com is a global coopertition website that involves over two dozen FIRST teams and other individuals.  Here, MINDSTORMS EV3 users collaborate and share programming lessons and other resources. This site is used by over 50,000 users in 140 countries. Droids Robotics are the founders and curators of the site. We have collaborated with others to translate the lessons into other languages including Dutch, Portuguese, Spanish, Hebrew, etc. so we can reach the greatest number of students. Out curriculum is used by FLL teams, technology teachers, boy scouts, robotics clubs and more.</p>
+                            <p>
+                                <strong>Want to learn more?</strong> Visit out website <a href="http://www.ev3lessons.com">EV3Lessons.com</a>.</p>
+                            <ul class="list-inline">
+                                <li>Launch Date: September 2014</li>
+                                <li>Level: All</li>
+                                <li>Category: Coopertition</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<!-- END PRIMARY -->
 
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>PIX3L PLOTT3R</h2>
+                            <p class="item-intro text-muted">A Pixel Plotting Robot</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/PIX3LPLOTT3R.jpg" alt="">
+                            <p><a href="http://www.facebook.com/PIX3LPLOTT3R">PIX3L PLOTT3R</a> is a popular LEGO Mindstorms EV3 Robot. Challenging software installation and programming. This project uses <a href="http://www.ev3dev.org">ev3dev</a> and Python. Everything is made of LEGO except the paper and the pen! You can use this robot to print any image: photos, drawings, logos, etc. You can watch this fun robot in action on <a href="https://youtu.be/3YJsQhX7oHM">YouTube</a>.</p>
+                            <p>You can download build instructions from our github site <a href="https://github.com/droidsrobotics/projects/tree/master/PIX3L%20PLOTT3R">here</a>.</p>
+                            <ul class="list-inline">
+                                <li>Launch Date: February 2016</li>
+                                <li>Level: Advanced</li>
+                                <li>Category: Robotics</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>M3LODY MAK3R</h2>
+                            <p class="item-intro text-muted">A Music Robot</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/M3LODYMAK3R.jpg" alt="">
+                            <p>This is an EV3 robot that combines art, music and robotics. It is designed for elementary schools. Student color in a strip of paper based on a key. The strip is fed into the paper feeder on the robot. The color sensor reads the colored strip and generates musical notes. You can watch this fun robot in action on <a href="https://www.youtube.com/watch?v=6ymDTEkohkw&feature=youtu.be">YouTube</a>.</p>
+                            <p>You can download the build instructions on our github page <a href="https://github.com/droidsrobotics/projects/tree/master/M3LODY%20MAK3R">here</a>.</p>
+                            <ul class="list-inline">
+                                <li>Launch Date: March 2016</li>
+                                <li>Level: Beginner-Intermediate</li>
+                                <li>Category: Robotics</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<!-- START FOOTER -->
-        <script src="footer.js"></script>
-<!-- END FOOTER -->
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>DAL3K</h2>
+                            <p class="item-intro text-muted">A Fictional Character Robot</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/DAL3K.jpg" alt="">
+                            <p>A Dalek is a character from the Doctor Who TV show. This is our version of a DAL3K built using LEGO and LEGO MINDSTORMS. This is a work in progress.</p>
+                            <p>You can follow DAL3K's progress on <a href="https://www.facebook.com/DAL3K-753319731469852/">DAL3K's Facebook page</a>.</p>
+                            <ul class="list-inline">
+                                <li>Launch Date: January 2015</li>
+                                <li>Client: All</li>
+                                <li>Category: Robotics</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>BATT3RY SORT3R</h2>
+                            <p class="item-intro text-muted">A Battery Recycling Robot</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/BATT3RYSORT3R.JPG" alt="">
+                            <p>This robot is featured in the LEGO Play to Protoype video <a href="https://youtu.be/yM64nTU2zTs">YouTube</a>. It was also featured as play of LEGO's Innovation at Play campaign <a href="https://innovationatplay.lego.com/en-us?domainredir=lego.com#/mindstorms.html">Lego.com</a></p>
+                            <p>This is To be filled in XXXX<a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">To be filled</a>.</p>
+                            <ul class="list-inline">
+                                <li>Launch Date: September 2015</li>
+                                <li>Client: Everyone</li>
+                                <li>Category: Robotics</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<!-- END COPYRIGHT -->
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>DROID BOT</h2>
+                            <p class="item-intro text-muted">Educational Robots</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/db22.jpg" alt="">
+                            <p>DroidBot robots are designed to fill a need. EV3 users who purchase the retail set 31313 are not provided with any designs that are meant for teaching. FLL teams and casual users wants to learn to program using the EV3.  But none of the 31313 designs have sensors and motors in optimal locations for teaching. DroidBot JR is designed as an educational robot for the 31313 set. It is compact, uses minimal parts, has a shielded color sensor and features a handle. DroidBot 2.0 is the second generation of DroidBot designs for educational purposes. It was designed to go along with the lessons on EV3Lessons.com. It also features SNAP attachments that are easy to put on and take off. It has been used by numerous organizations to teach robotics including the Girls of Steel (Pennsylvania), Hackground (Maryland) and numerous FLL teams aroudn the world as a base robot design.</p>
+                            <p>You can download the DroidBot designs at <a href="http://ev3lessons.com/robots.html#en-us">EV3Lesssons Robot Design Page</a>.</p>
+                            <ul class="list-inline">
+                                <li>Launch Date: September 2014</li>
+                                <li>Level: All</li>
+                                <li>Category: Robotics</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-</div>
-<!-- END WRAPPER -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-</div>
-<!-- END BG SHADOW -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
 
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
-<!-- START CUSTOM SCRIPT -->
-
-<!-- END CUSTOM SCRIPT -->
-
-<script type='text/javascript' src='js/jquery.colorbox-min.js'></script>
-<script type='text/javascript' src='js/jquery.flexslider-min.js'></script>
-<script type='text/javascript' src='js/jquery.tweetable.js'></script>
-<script type='text/javascript' src='js/jquery.superfish.js'></script>
-<script type='text/javascript' src='portfolios/filterable/js/jquery.filterable.js'></script>
-<script type='text/javascript' src='js/jquery.tipsy.js'></script>
-<script type='text/javascript' src='js/responsive.js'></script>
-<script type='text/javascript' src='js/jquery.mobilemenu.js'></script>
-<script type='text/javascript' src='js/shortcodes.js'></script>
-<script type='text/javascript' src='js/jquery/jquery.masonry.min.js'></script>
-<script type='text/javascript' src='js/jquery.custom.js'></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
 
 </body>
-<!-- END BODY -->
+
 </html>
