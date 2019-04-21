@@ -2,7 +2,7 @@
 title: Not the Droids You Are Looking For
 email: droids.robotics@gmail.com
 description: Big annoucement coming on May 4
-baseurl: "/eventually-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Social settings
