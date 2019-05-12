@@ -1,26 +1,65 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
+# _Airspace_ for Jekyll
+![screenshot](screenshots/home.png "Description goes here")
 
-[Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+This Jekyll theme is a port of ThemeFisher's Airspace template. It is released under ThemeFisher's free license, which requires attribution.
 
-## Getting Started
+## Usage
+To start your project, [fork this respository](https://github.com/ndrewtl/airspace-jekyll/fork), put in your content, and go!
 
-To use this theme, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+## Examples
+Here are some projects that have used this Jekyll Theme:
+* [BOYUAN Open Source 博辕开源](https://boyuanitsm.github.io)
+* [Campus VC](https://mrchildneo.github.io/mrchildneo/)
+* [Mãos de amar](https://www.maosdeamar.com.br/)
+* [ATK Team](http://www.atksec.com/)
+* [Coding Club](https://ourcodingclub.github.io/)
+* [Dev Empathy Book Club](http://www.devempathybook.club/)
+* [DKAN Open Data Catalog](http://getdkan.com) (modified version of this theme)
 
-## Bugs and Issues
+## Steps for Setup:
 
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
+### Make sure you have Ruby
 
-## Creator
+First, make sure you have [Ruby](https://www.ruby-lang.org/en/) installed. You can confirm this by running `ruby -v` on the command line:
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Partner at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+```sh
+$ ruby -v
+ruby [version number] (date) [your platform]
+```
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+If you get something like `"Error, command not found"` visit the link above and
+install Ruby for your platform.
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-## Copyright and License
+### Make sure you have Bundler
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-agency/blob/gh-pages/LICENSE) license.
+Next, make sure you have [Bundler](https://bundler.io) installed. Just like
+above, run `bundle -v` on the command line:
+
+```sh
+$ bundle -v
+bundle [version number]
+```
+
+If you get `"Error, command not found"` run `gem install bundler` to install it
+using RubyGems.
+
+### Run this repository
+
+Clone the repository, and `cd` into it:
+```sh
+$ git clone https://github.com/ndrewtl/airspace-jekyll.git
+$ cd airspace-jekyll
+```
+
+Install dependencies locally:
+```sh
+$ bundle install --path vendor/bundle
+```
+
+This should install a local copy of jekyll.
+
+Now run the server:
+```sh
+$ ./vendor/bundle/ruby/#{YOUR_RUBY_VERSION}/bin/jekyll server
+```
