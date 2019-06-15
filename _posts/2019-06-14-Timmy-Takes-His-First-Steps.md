@@ -6,7 +6,7 @@ author: "Ramsey"
 
 ### Coopertition
 
-We were vert excited to meet FIRST Senior Mentor, Andy Yantes, and students from FRC 3193 Falco Techs at our second meeting. They inspected our robot for us and gave us lots of great advice. They recommended that our robot should be long-shaped and gave us a thumbs up for all of our wiring.  Thanks to a team parent, we were able to eat dinner together.
+We were very excited to meet FIRST Senior Mentor, Andy Yantes, and students from FRC 3193 Falco Techs at our second meeting. They inspected our robot for us and gave us lots of great advice. They recommended that our robot should be long-shaped and gave us a thumbs up for all of our wiring.  Thanks to a team parent, we were able to eat dinner together.
 
 ### Learning New Skills
 
