@@ -17,5 +17,5 @@ One third of our team went to the Homestead, PA for an outreach event with the S
 
 ### Robot Redesign
 
-We changed the format of our robot using the frame-opening kit, in which the front of the robot is in the share of a C. We finished making corner bumbers and making a new CAD for the robot. We also replaced one of the bearings on the our robot that we had broken on the first day.
+We changed the format of our robot using the frame-opening kit, in which the front of the robot is in the shape of a C. We started making bumbers for our robot. We are still learning and some of the corners are better than the others. We are practicing using generic cloth instead of the official canvas cloth and hope to master bumper making by the end of ht year. We also began to update the CAD for the robot. We also replaced one of the bearings on the our robot that we had broken on the first day.
 
