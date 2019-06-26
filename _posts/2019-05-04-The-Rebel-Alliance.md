@@ -1,5 +1,6 @@
 ---
 layout: post
+image: "/img/Blog/Alliance.jpg"
 title: "The Story of the Rebel Alliance"
 author: "Arvind"
 ---
@@ -9,3 +10,4 @@ Not the Droids You are Looking For began in 2011 as a FIRST LEGO League team. Th
 Over the last decade in FIRST, the students on our team have mentored 1000s of teams, provided resources for 40,000 teams (over 400,000 users), taught workshops in multiple states and spread STEM at events reaching hundreds of thousands of visitors. We collaborate with teams worldwide to maximize impact, practicing Gracious Professionalism and Coopertition in all that we do.
 
  More than two-thirds of our team has been in FIRST LEGO League and FIRST Tech Challenge and we will leverage this background.As a FIRST Robotics Competition team, our goal is to continue all that we started in FIRST LEGO League and be a Force For Change.
+ 

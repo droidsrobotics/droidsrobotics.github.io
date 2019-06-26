@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "First Team Meeting"
+image: "/img/Blog/Day1.jpg"
 author: "Arvind"
 ---
 

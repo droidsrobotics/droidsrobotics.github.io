@@ -1,5 +1,6 @@
 ---
 layout: post
+image: "/img/Blog/Day2.jpg"
 title: "Timmy Takes His FIRST Steps"
 author: "Ramsey"
 ---
@@ -15,3 +16,6 @@ We began learning how to use Solidworks. We were able to import the kit of parts
 ### FIRST Steps
 
 We learnt how to configure all our electronics and we also learnt IP networking in the process. While configuring the robot, we gave it the name "Timmy". We actually got our robot "Timmy" to take his first steps and drive along the floor. First, just one motor, and later with all four. It was an exciting moment for our team.
+
+
+
