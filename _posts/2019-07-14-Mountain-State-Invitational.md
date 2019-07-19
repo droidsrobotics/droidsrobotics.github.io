@@ -1,7 +1,7 @@
 ---
 layout: post
 image: "/img/Blog/MSI.jpg"
-title: "FIRST Outreach"
+title: "Mountain State Invitational"
 author: "Arvind"
 ---
 
