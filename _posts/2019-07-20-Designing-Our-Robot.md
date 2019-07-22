@@ -20,5 +20,3 @@ The end result from two weeks of work is not perfect, but we are trying and lear
 ![]({{ site.baseurl }}/img/Blog/Idea.png)
 
 ![]({{ site.baseurl }}/img/Blog/CAD1.png)
-
-![]({{ site.baseurl }}/img/Blog/CAD2.png)
