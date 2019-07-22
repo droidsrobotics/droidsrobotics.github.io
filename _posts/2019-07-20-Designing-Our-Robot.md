@@ -11,12 +11,15 @@ We took our robot design idea from the previous meeting and broke it up into fiv
 
 ### Designing is Hard Work
 
-No one on the team has any experience designing an FRC robot. Therefore, the team took the last two weeks to take the ideas we had at the last meeting and make CAD models for them.  Every sub-team had to describe their idea in text or drawing, create a CAD and generate a list of parts.
+No one on the team has any experience designing an FRC robot. Therefore, the team took the last two weeks to take the ideas we had at the last meeting and make CAD models for them.  Every sub-team had to describe their idea in text or drawing, create a CAD, and generate a list of parts.
 
 We picked Solidworks to create our CAD drawings. For most of the students, this is brand new software and it was tough to learn. A few team members who had a bit more experience volunteered to help the other sub-teams. This was a great way for us to learn to communicate better and rely on each other.
 
-The end result from two weeks of work is not perfect, but we are trying and learning as a team. Here are some samples of our work.
+The end result from two weeks of work is far from perfect, but we are trying, and learning as a team. All of us made mistakes (a lot of them), but that is okay. Here are some samples of our work.
 
 ![]({{ site.baseurl }}/img/Blog/Idea.png)
 
 ![]({{ site.baseurl }}/img/Blog/CAD1.png)
+
+![]({{ site.baseurl }}/img/Blog/Finalintake.jpg)
+
