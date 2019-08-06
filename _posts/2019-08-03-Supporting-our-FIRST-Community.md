@@ -7,7 +7,7 @@ author: "Ananth"
 
 ### FIRST LEGO League Kickoff
 
-On Saturday, August 3rd, our team hosted a kickoff for the new First LEGO League challenge and season at Carnegie Mellon University (CMU). This is the sixth year in a row that we have organized and hosted the event.
+On Saturday, August 3rd, our team hosted a kickoff for the new First LEGO League challenge and season at Carnegie Mellon University (CMU). This is the sixth year in a row that we have organized and hosted the event. Our team members also spend over 40 hours of work creating new resources for teams to use each year including a Scorer, Worksheets and Lessons.
 
 We introduced the new missions for the robot to over 100 people who attended in person and almost 500 people who watched the event online. The Regional Director (Daphne Frownfelter), Assistant Regional Director (Katie Dunn) and FIRST Senior Mentor (Andy Yantes) came to support us. Andy Yantes has been mentoring our team since April and we really appreciate all his guidance.
 
@@ -15,7 +15,7 @@ We had two guest speakers come in to help teams and audience members think of id
 
 FIRST LEGO League Champion's Team Tiger Techs gave teams their Innovation Project tips for the season.
 
-The entire event was broadcast live and is available for viewing in other regions.  <a href="https://youtu.be/wJCmiPJrBhc">Kickoff Broadcast Video</a>
+The entire event was broadcast live and is available for viewing in other regions.  <a href="https://youtu.be/wJCmiPJrBhc">Kickoff Broadcast Video</a>. All the slides are available <a href="http://flltutorials.com/Worksheets.html">here</a>. Lessons, tools and Coach's Corner articles for FIRST LEGO League are available <a href="http://flltutorials.com/index.html">here</a>. LEGO MINDSTORMS programming Lessons are available <a href= "http://ev3lessons.com/en/">here</a>.
 
 ![]({{ site.baseurl }}/img/Blog/Kickoff3.jpg)
 
