@@ -21,7 +21,7 @@ The entire event was broadcast live and is available for viewing in other region
 
 ### Steel City Showdown
 
-After the kickoff was finished, we went to the Steel City Showdown FRC Off-Season Event, which was also at CMU, to give us a feel for what an FRC Competition is like and to learn tips and ideas from other teams about building our robot. We would like to thank FRC# 1708, FRC #1511, and FRC #3051 for taking time to talk to us about your robot. We appreciate your Gracious Professionalism and Coopertition is helping our rookie team.
+After the kickoff was finished, we went to the Steel City Showdown FRC Off-Season Event, which was also at CMU, to give us a feel for what an FRC Competition is like and to learn tips and ideas from other teams about building our robot. We would like to thank FRC# 1708, FRC #1511, and FRC #3015 for taking time to talk to us about your robot. We appreciate your Gracious Professionalism and Coopertition is helping our rookie team.
 
 We got the opportunity to watch live FRC matches while also being able visit FRC Pits. Overall, this experience served as a great way for the team to get a feel for what an FRC competition is like.
 
