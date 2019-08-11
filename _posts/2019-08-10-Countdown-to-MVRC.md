@@ -17,7 +17,7 @@ We first took apart our Andy Mark kit of parts chassis, cut it to the right dime
 
 ### Programming should never be an afterthought
 
-With our history in FIRST LEGO League and strong background in programming, our programmers are considered a key contributors to our team. Not only will our robot not move without programming, but good programming is a key element for a good robot. Hence, we involve programmers from the very beginning.
+With our history in FIRST LEGO League and strong background in programming, our programmers are considered key contributors to our team. Not only will our robot not move without programming, but good programming is a key element for a good robot. Hence, we involve programmers from the very beginning.
 
 > Every sub-team is equally important. It is up to us to teach each other, encourage each other, respect each other and value each other's contributions. #FIRSTteamvalues
 
