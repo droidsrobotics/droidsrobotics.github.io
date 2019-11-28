@@ -1,4 +1,31 @@
-- name: Arvind
-  title: Team Member
-  testimonial: "Forget the Red Alliance and the Blue Alliance. Join the Rebel Alliance!"
+
+  - name: FIRST Partner
+    title:
+    testimonial: "There is not a day that goes by that we do not use your Facebook page or websites. You are a true FIRST treasure!"
+    image: img/item-img1.jpg
+
+- name: FIRST Coach
+  title:
+  testimonial: "About Share & Learn: You inspire me, make me laugh, teach me, and encourage me to keep going with robotics."
   image: img/item-img1.jpg
+
+- name: FIRST Coach
+        title:
+        testimonial: "When I hear other coaches looking for great resources for coding, I always recommend EV3Lessons."
+        image: img/item-img1.jpg
+
+  - name: FIRST Coach
+    title:
+    testimonial: "About Share & Learn: You all are a lovely group that represents FLL and core values so beautifully!"
+    image: img/item-img1.jpg
+
+    - name: FIRST Coach
+            title:
+            testimonial: "EV3Lessons is such a treasure trove from MINDSTORMS learners and lovers!"
+            image: img/item-img1.jpg
+
+
+    - name: FIRST Coach
+      title:
+      testimonial: "About Share & Learn:  I’ll be honest, this group has become my sanity and on tough days, it feels great and encouraging to know that we have support! We are so very blessed for this group!"
+      image: img/item-img1.jpg
