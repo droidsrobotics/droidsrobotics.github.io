@@ -5,7 +5,7 @@ title: "District-Level FIRST LEGO League Tournament"
 author: "Arvind"
 ---
 
-On December 14, two of our students and two of our mentors represented the team at the District FIRST LEGO League tournament at University of Akron. We enjoyed being judges and being able to make a difference in the larger FIRST community.
+On December 14, two of our students and two of our mentors represented the team at the District FIRST LEGO League tournament at University of Akron. We enjoyed being judges and assistant judges and being able to make a difference in the larger FIRST community.
 
 We also had the additional honor of being the Keynote speakers at opening ceremonies. Our goal was to show the students how important participation in FIRST is and inspire them to keep on going in their journey. 
 
