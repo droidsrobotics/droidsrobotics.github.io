@@ -1,12 +1,12 @@
-- counter: 500000
+- counter: 1000000
   icon: ion-ios-chatboxes-outline
   text: Students Taught
-- counter: 200
+- counter: 500
   icon: ion-ios-heart-outline
   text: Outreach Events
-- counter: 10
+- counter: 5
   icon: ion-ios-person-outline
-  text: Team Members
+  text: Years of Impact
 - counter: 5000
   icon: ion-ios-clock-outline
   text: Hours
